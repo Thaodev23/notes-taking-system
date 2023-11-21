@@ -1,6 +1,6 @@
 // Author: Joey Thao
 // Collaborators: Jason Yang, Sichoun Lee
-// Date: 11/21/2023
+// Date: 11/20/2023
 // Description: generating a note-taking system through express and fs.
 
 const express = require("express");
