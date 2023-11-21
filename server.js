@@ -1,3 +1,8 @@
+// Author: Joey Thao
+// Collaborators: Jason Yang, Sichoun Lee
+// Date: 11/21/2023
+// Description: generating a note-taking system through express and fs.
+
 const express = require("express");
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -44,12 +49,6 @@ fs.readFile("db/db.json", "utf8", (err, info)=> {
 
 })
 });
-
-
-
-
-
-
 
 // Below: to make sure the server is running. 
 app.listen(PORT, () => {
